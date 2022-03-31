@@ -1,0 +1,868 @@
+/* 
+  ##Cihaz = Masaüstü
+  ##Ekran = 1281px 'den yüksek çözünürlükler için
+*/
+
+@media (min-width: 1281px) {
+  
+  }
+  
+  /* 
+    ##Cihaz = Laptoplar, Masaüstü
+    ##Ekran = 1025px to 1280px Arası Ekranlar
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    .container {
+        max-width:1240px;
+    }
+    .header .navbar .logo {
+        margin-left:20px;
+    }
+    .header .navbar .nav-right .nav-right-bar {
+        margin-right:20px;
+    }
+    /* --- SERVICE SECTION --- */
+    .service-section .service-section-left img {
+        max-width:500px;
+    }
+    .service-section .service-section-right-title h3 {
+        font-size: 16px;
+    }
+    .service-section .service-section-right-title h2 {
+        font-size:30px;
+    }
+        /* List */
+        .service-section .service-section-right-list ul li span {
+            font-size:16px;
+        }
+        /* Button */
+        .service-section .service-section-right-button a {
+            font-size:18px;
+            padding:14px 0;
+        }
+
+    /* --- THOUSAND CARD LIST --- */
+    .thousand-card-lists .thousand-card-list ul li {
+        max-width:300px;
+    }
+    .thousand-card-lists .thousand-card-list ul li img {
+        width:150px;
+    }
+    
+    /* --- TOP CHANNELS --- */
+    .top-channels-top {
+        margin-left:20px;
+    }
+
+    /* --- PACKAGES --- */
+    .packages .package-card:nth-child(1){
+        margin-left:20px;
+    }
+    .packages .package-card:nth-child(3){
+        margin-right:20px;
+    }
+
+    /* --- WORLDWIDE CARDS --- */
+    .worldwide-card ul {
+        margin-left:-20px;
+    }
+
+    /* --- FOOTER --- */
+    footer.footer .footer-bottom-list ul li:nth-child(1) {
+    }
+    .footer-bottom-text {
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .header .navbar .nav-right .nav-right-bar {
+        right:20px
+    }
+  }
+  
+  /* 
+    ##Cihaz = Tabletler, Ipad (portrait/dikey modda)
+    ##Ekran = 768px to 1024px Arası Ekranlar
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        max-width:1000px;
+    }
+    .header .navbar .logo {
+        margin-left:20px;
+    }
+    .header .navbar .nav-right .nav-right-bar {
+        margin-right:20px;
+    }
+    .hero-section {
+        margin:0 30px
+    }
+    .hero-section-right-text span {
+        font-size:15px!important
+    }
+    /* --- SERVICE SECTION --- */
+    .service-section .service-section-left img {
+        max-width:400px;
+    }
+    .service-section .service-section-right-title h3 {
+        font-size: 14px;
+    }
+    .service-section .service-section-right-title h2 {
+        font-size:22px;
+    }
+        /* List */
+        .service-section .service-section-right-list ul li span {
+            font-size:13px;
+        }
+        /* Button */
+        .service-section .service-section-right-button a {
+            font-size:14px;
+            padding:13px 0;
+        }
+
+    /* --- THOUSAND CARD LIST --- */
+    .thousand-card-lists .thousand-card-list ul li {
+        max-width:300px;
+    }
+    .thousand-card-lists .thousand-card-list ul li img {
+        width:120px;
+    }
+    /* Title */
+    .thousand-card-lists .thousand-card-list ul li h2 {
+        font-size:18px;
+    }
+    /* Text */
+    .thousand-card-lists .thousand-card-list ul li p {
+        font-size:14px;
+        line-height:18px;
+    }
+    
+    /* --- TOP CHANNELS --- */
+    .top-channels-top {
+        margin-left:20px;
+    }
+    /* Title */
+    .top-channels-top h2 {
+        font-size:20px;
+    }
+    .top-channels .top-channels-bottom-channels h2 {
+        font-size:20px;
+    }
+
+        /* TOP SECTION */
+        .top-channels .top-channels-top-channels li {
+            margin:10px
+        }
+        .top-channels .top-channels-top-channels li img {
+            width:40px;
+            height:40px;
+        }
+        /* BOTTOM SECTION */
+        .top-channels .top-channels-bottom-channels {
+            max-width:500px;
+        }
+        .top-channels .top-channels-bottom-channels ul li {
+            margin:10px
+        }
+        .top-channels .top-channels-bottom-channels ul li img {
+            width:40px;
+            height:40px;
+        }
+        /* Buttons */
+        .top-channels .top-channels-bottom-buttons a {
+            font-size:16px;
+            padding:10px 30px;
+        }
+
+
+    /* --- PACKAGES --- */
+    .packages .package-card:nth-child(1){
+        margin-left:20px;
+    }
+    .packages .package-card:nth-child(3){
+        margin-right:20px;
+    }
+        /* Title */
+        .packages .package-card .package-card-title span {
+            font-size:18px;
+        }
+        .packages .package-card .package-card-title img {
+            width:25px;
+        }
+        /* Text */
+        .packages .package-card .package-card-list ul li span {
+            font-size:12px;
+        }
+        /* Price */
+        .packages .package-card .package-card-price h2 {
+            font-size:25px;
+        }
+        /* Button */
+        .packages .package-card .package-card-button a {
+            max-width:120px;
+            font-size:14px;
+            margin-left:30px;
+            padding:10px 20px;
+        }
+
+    /* --- WORLDWIDE CARDS --- */
+    .worldwide-card ul {
+        margin-left:-20px;
+    }
+    .worldwide-card ul li img {
+        width:50px;
+    }
+    .worldwide-cards ul li h3 {
+        font-size:18px;
+    }
+    .worldwide-cards ul li span {
+        font-size:12px;
+    }
+
+
+
+    /* --- FOOTER --- */
+    footer.footer .footer-bottom-list ul li:nth-child(1) {
+        font-size:15px!important;
+    }
+    /* Text */
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list ul li {
+        font-size:12px;
+    }
+    .footer-bottom-text {
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .footer-aciklama {
+        font-size:14px;
+        line-height:20px;
+    }
+    .header .navbar .nav-right .nav-right-bar {
+        right:10px
+    }
+  }
+  
+  /* 
+    ##Cihaz = Tabletler, Ipad (landscape/yatay modda)
+    ##Ekran = 768px to 1024px Arası Ekranlar
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+  }
+  
+  /* 
+    ##Cihaz = Düşük Çözünürlüklü Tablet ve Mobil Ekranlar (Landscape / Yatay Modda)
+    ##Ekran = 481px to 767px Arası Ekranlar
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    .container {
+        max-width:767px;
+    }
+    .header {
+        padding-bottom:20px;
+    }
+
+    /* Logo */
+    .header .navbar .logo {
+        margin-left:20px;
+    }
+    .header .navbar .logo a img {
+        width:130px;
+    }
+
+    /* Bar */
+    .header .navbar .nav-right .nav-right-bar {
+        margin-right:20px;
+    }
+    
+    /* Navbar Button */
+    .header .navbar .nav-right .nav-right-btn {
+        margin-right:75px;
+    }
+    .header .navbar .nav-right .nav-right-btn a {
+        font-size:12px;
+        
+    }
+    .header .navbar .nav-right .nav-right-bar {
+        right:0px
+    }
+
+
+    /* Menu */
+    .menu {
+        right:55px
+    }
+
+    /* Hero */
+    .hero-section {
+        margin:0 30px
+    }
+    .hero-section-right-text span {
+        font-size:15px!important
+    }   
+
+    /* Hero Right None */
+    .header .hero-section-right {
+        display:none;
+    }
+
+    /* Brand List */
+    .header .header-bottom-brands .header-bottom-brands-list {
+        border-radius:0;
+        margin-top:45px
+    }
+    .header .header-bottom-brands .header-bottom-brands-list img {
+        width:70px;
+        height:20px;
+
+    }
+
+    /* --- SERVICE SECTION --- */
+    .service-section {
+        flex-direction:column;
+    }
+    .service-section .service-section-left img {
+        width:100%;
+    }
+    .service-section .service-section-right-title h3 {
+        font-size: 16px;
+    }
+    .service-section .service-section-right-title h2 {
+        font-size:30px;
+    }
+        /* List */
+        .service-section .service-section-right-list ul li span {
+            font-size:16px;
+        }
+        /* Button */
+        .service-section .service-section-right-button a {
+            font-size:16px;
+            padding:13px 0;
+        }
+
+    /* --- THOUSAND CARD LIST --- */
+    .thousand-card-lists .thousand-card-list-top ul {
+        flex-direction:column;
+    }
+    .thousand-card-lists .thousand-card-list-bottom ul {
+        flex-direction:column;
+    } 
+    .thousand-card-lists .thousand-card-list ul li {
+        max-width:300px;
+    }
+    .thousand-card-lists .thousand-card-list ul li img {
+        width:120px;
+    }
+    /* Title */
+    .thousand-card-lists .thousand-card-list ul li h2 {
+        font-size:18px;
+    }
+    /* Text */
+    .thousand-card-lists .thousand-card-list ul li p {
+        font-size:14px;
+        line-height:18px;
+    }
+    
+    /* --- TOP CHANNELS --- */
+    .top-channels .top-channels-top {
+        margin-left:20px;
+    }
+    /* Title */
+    .top-channels-top h2 {
+        font-size:20px;
+    }
+    .top-channels .top-channels-bottom-channels h2 {
+        font-size:20px;
+    }
+
+        /* TOP SECTION */
+        .top-channels .top-channels-top-channels li {
+            margin:10px
+        }
+        .top-channels .top-channels-top-channels li img {
+            width:40px;
+            height:40px;
+        }
+        /* BOTTOM SECTION */
+        .top-channels .top-channels-bottom {
+            flex-direction:column;
+            margin-left:20px;
+        }
+        .top-channels .top-channels-bottom-channels {
+            max-width:500px;
+        }
+        .top-channels .top-channels-bottom-channels ul li {
+            margin:10px
+        }
+        .top-channels .top-channels-bottom-channels ul li img {
+            width:50px;
+            height:auto
+        }
+        /* Buttons */
+        .top-channels .top-channels-bottom-buttons a {
+            font-size:16px;
+            padding:10px 30px;
+        }
+
+
+    /* --- PACKAGES --- */
+    .packages .package .package-flex {
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+    }
+    .packages .package-card {
+        margin-bottom:25px;
+        margin-right:0;
+        width:90%
+    }
+    .packages .packages-title h3 span {
+        display: block
+    }
+        /* Title */
+        .packages .package-card .package-card-title span {
+            font-size:18px;
+        }
+        .packages .package-card .package-card-title img {
+            width:25px;
+        }
+        /* Text */
+        .packages .package-card .package-card-list ul li span {
+            font-size:12px;
+        }
+        /* Price */
+        .packages .package-card .package-card-price h2 {
+            font-size:25px;
+        }
+        /* Button */
+        .packages .package-card .package-card-button a {
+            max-width:120px;
+            font-size:14px;
+            margin-left:30px;
+            padding:10px 20px;
+        }
+        .kampanya {
+            
+        }
+
+    /* --- WORLDWIDE CARDS --- */
+    .worldwide-card ul {
+        margin-left:-20px;
+    }
+    .worldwide-card ul li img {
+        width:50px;
+    }
+    .worldwide-cards ul li h3 {
+        font-size:18px;
+    }
+    .worldwide-cards ul li span {
+        font-size:12px;
+    }
+
+
+
+    /* --- FOOTER --- */
+    footer.footer {
+        
+    }
+    /* Footer TOP */
+    footer.footer .footer-top {
+        max-width:100%;
+        margin-bottom:0;
+        border-radius:10px 10px 0 0;
+        border-bottom:1px #fff solid;
+        padding-bottom:10px;
+    }
+
+    /* Footer BOTTOM */
+    footer.footer .footer-bottom {
+        border-radius:0;
+    }
+    footer.footer .footer-bottom .footer-bottom-lists {
+        flex-direction:column;
+    }
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list {
+        margin-top:0;
+    }
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list ul li:nth-child(1) {
+        margin-bottom:0;
+        height:auto;
+        margin-bottom:10px;
+    }
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list ul li:nth-child(1) a {
+        height:10px!important;
+        margin-bottom:40px;
+        font-size:15px!important;
+
+    }
+
+    /* Text */
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list ul li {
+        font-size:12px;
+    }
+    .footer-bottom-text {
+        margin-left:20px;
+        margin-right:20px;
+    }
+    .footer-aciklama {
+        font-size:14px;
+        line-height:20px;
+        border:none;
+        text-align:left;
+        margin:10px 20px;
+        padding-top:10px;
+        border-top:1px #fff solid;
+        max-width:100%;
+    }
+    
+  }
+  
+  /* 
+    ##Cihaz = En Çok Tercih Edilen Mobil Boyutlar (Portrait/Dikey Modda)
+    ##Ekran = 320px to 479px Arası Ekranlar
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .container {
+        max-width:480px;
+    }
+    .header {
+        padding-bottom:20px;
+        max-height: 500px;
+    }
+
+    /* Logo */
+    .header .navbar .logo {
+        margin-left:20px;
+    }
+    .header .navbar .logo a img {
+        width:90px;
+    }
+
+    /* Bar */
+    .header .navbar .nav-right .nav-right-bar {
+        right:5px;
+    }
+    
+    /* Navbar Button */
+    .header .navbar .nav-right .nav-right-btn {
+        margin-right:70px;
+    }
+    .header .navbar .nav-right .nav-right-btn a {
+        font-size:10px;
+        border:2px #fff solid;
+    }
+
+    /* Menu */
+    .menu {
+        right:55px
+    }
+
+    /* Hero */
+    .hero-section {
+        margin:0 30px
+    }
+    .hero-section-right-text span {
+        font-size:15px!important
+    }   
+    /* Title */
+    .hero-section-left-title h1 {
+        font-size:28px!important;
+        text-align:center;
+    }
+
+    .hero-section-left-title h3 {
+        font-size:15px;
+        text-align:center;
+    }
+
+    /* List */
+    .header .hero-section-left-list ul li img {
+        width:15px;
+    }
+    .header .hero-section-left-list ul li span {
+        font-size:14px;
+    }
+
+    /* Button */
+    .header .hero-section-left-button {
+        margin-left:10px;
+    }
+    .header .hero-section-left-button a {
+        font-size:16px;
+    }
+    
+    /* Hero Right None */
+    .header .hero-section-right {
+        display:none;
+    }
+
+    /* Brand List */
+    .header .header-bottom-brands .header-bottom-brands-list {
+        border-radius:0;
+        margin-top:30px;
+    }
+    .header .header-bottom-brands .header-bottom-brands-list img {
+        width:34px;
+        height:16px;
+
+    }
+
+    /* --- SERVICE SECTION --- */
+    .service-section {
+        flex-direction:column;
+        margin-left:10px;
+        margin-right:10px;
+        margin-top:100px;
+    }
+    .service-section .service-section-left img {
+        width:100%;
+    }
+    .service-section .service-section-right-title h3 {
+        font-size: 12px;
+    }
+    .service-section .service-section-right-title h2 {
+        font-size:22px;
+    }
+        /* List */
+        .service-section .service-section-right-list ul li span {
+            font-size:16px;
+        }
+        /* Button */
+        .service-section .service-section-right-button a {
+            font-size:16px;
+            padding:13px 0;
+        }
+
+    /* --- THOUSAND CARD LIST --- */
+    .thousand-card-lists .thousand-card-list-top ul {
+        flex-direction:column;
+    }
+    .thousand-card-lists .thousand-card-list-bottom ul {
+        flex-direction:column;
+    } 
+    .thousand-card-lists .thousand-card-list ul li {
+        max-width:300px;
+    }
+    .thousand-card-lists .thousand-card-list ul li img {
+        width:120px;
+    }
+    /* Title */
+    .thousand-card-lists .thousand-card-list ul li h2 {
+        font-size:18px;
+    }
+    /* Text */
+    .thousand-card-lists .thousand-card-list ul li p {
+        font-size:14px;
+        line-height:18px;
+    }
+    
+    /* --- TOP CHANNELS --- */
+    .top-channels{
+        background:url("../images/family-time2.svg") no-repeat;
+        background-position:center;
+        background-size:cover;
+    }
+    .top-channels .top-channels-top {
+        margin-left:20px;
+    }
+    /* Title */
+    .top-channels-top h2 {
+        font-size:20px;
+    }
+    .top-channels .top-channels-bottom-channels h2 {
+        font-size:20px;
+    }
+
+        /* TOP SECTION */
+        .top-channels .top-channels-top-channels {
+            justify-content:left;
+        }
+        .top-channels .top-channels-top-channels li {
+            margin:10px
+        }
+        .top-channels .top-channels-top-channels li img {
+            width:40px;
+            height:40px;
+        }
+        /* BOTTOM SECTION */
+        .top-channels .top-channels-bottom {
+            flex-direction:column;
+            margin-left:20px;
+            justify-content:left;
+        }
+        .top-channels .top-channels-bottom-channels {
+            max-width:500px;
+        }
+        .top-channels .top-channels-bottom-channels ul li {
+            margin:10px
+        }
+        .top-channels .top-channels-bottom-channels ul li img {
+            width:50px;
+            height:auto
+        }
+        /* Buttons */
+        .top-channels .top-channels-bottom-buttons a {
+            font-size:16px;
+            padding:10px 30px;
+        }
+
+
+    /* --- PACKAGES --- */
+    .packages .package .package-flex {
+        flex-direction:column;
+        align-items: center;
+        justify-content:center;
+    }
+    .packages-toggle {
+        font-size:13px;
+        margin-right:10px;
+        margin-left:10px;
+    }
+    .packages .package-card {
+        margin-bottom:25px;
+        margin-right:0;
+        width:90%
+    }
+    .packages .packages-title h2 {
+        font-size:20px;
+    }
+    .packages .packages-title h3 span {
+        display: block;
+        font-size:12px;;
+    }
+    .packages .packages-title h3 {
+        font-size:14px;
+        margin-bottom:10px;
+        margin-left:10px;
+        margin-right:10px;
+    }
+        /* Title */
+        .packages .package-card {
+            margin-left:10px;
+            margin-right:10px;
+            padding:10px 0;
+        }
+        .packages .package-card .package-card-title span {
+            font-size:16px;
+        }
+        .packages .package-card .package-card-title img {
+            width:25px;
+        }
+        /* Text */
+        .packages .package-card .package-card-list ul li span {
+            font-size:12px;
+        }
+        /* Price */
+        .packages .package-card .package-card-price {
+            padding:1px 0 1px 10px;
+        }
+        .packages .package-card .package-card-price h2 {
+            font-size:20px;
+        }
+        /* Button */
+        .packages .package-card .package-card-button a {
+            max-width:120px;
+            font-size:14px;
+            margin-left:30px;
+            padding:10px 20px;
+        }
+
+        /* Kampanya */
+        .kampanya h2 {
+            font-size:16px;
+        }
+        .kampanya h3 {
+            font-size:10px;
+        }
+        .kampanya h3 span {
+            font-size:12px;
+        }
+
+    /* --- WORLDWIDE CARDS --- */
+    .worldwide-card ul {
+        margin-left:-45px;
+        flex-direction:column;
+    }
+    .worldwide-card ul li {
+        margin-bottom:20px;
+    }
+    .worldwide-card ul li img {
+        width:35px;
+    }
+    .worldwide-cards ul li h3 {
+        font-size:16px;
+    }
+    .worldwide-cards ul li span {
+        font-size:13px;
+    }
+
+
+
+    /* --- FOOTER --- */
+    footer.footer {
+        
+    }
+    /* Footer TOP */
+    footer.footer .footer-top {
+        max-width:100%;
+        margin-bottom:0;
+        border-radius:10px 10px 0 0;
+        border-bottom:1px #fff solid;
+        padding-bottom:10px;
+    }
+    footer.footer .footer-top .apps a img {
+        width:20px!important;
+        margin-right:10px;
+    }
+
+    /* Footer BOTTOM */
+    footer.footer .footer-bottom {
+        border-radius:0;
+    }
+    footer.footer .footer-bottom .footer-bottom-lists {
+        flex-direction:column;
+    }
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list {
+        margin-top:0;
+    }
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list ul li:nth-child(1) {
+        margin-bottom:0;
+        height:auto;
+        margin-bottom:10px;
+    }
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list ul li:nth-child(1) a {
+        height:10px!important;
+        margin-bottom:40px;
+        font-size:15px!important;
+
+    }
+
+    /* Text */
+    footer.footer .footer-bottom .footer-bottom-lists .footer-bottom-list ul li {
+        font-size:12px;
+    }
+    .footer-bottom-text {
+        flex-direction:column;
+        justify-content:center;
+        text-align:center;
+        padding:10px 0;
+    }
+    .footer-aciklama {
+        font-size:14px;
+        line-height:20px;
+        border:none;
+        text-align:left;
+        margin:10px 20px;
+        padding-top:10px;
+        border-top:1px #fff solid;
+        max-width:100%;
+    }
+    .footer-bottom-text ul {
+        margin-left:-30px;
+    }
+    
+  }
